@@ -1,0 +1,42 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+*.conda
+*.egg-info/
+
+# Model and training artifacts
+runs/
+model_*/
+*.bin
+*.pt
+*.ckpt
+*.onnx
+
+# Hugging Face cache & datasets
+cache/
+~/.cache/
+~/.huggingface/
+data/hf_tokenized/
+data/labels.json
+
+# Logs
+*.log
+wandb/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Hugging Face cache
+hf-cache/
