@@ -40,3 +40,8 @@ Thumbs.db
 
 # Hugging Face cache
 hf-cache/
+
+# Model will be sent to only Hugging Face Hub
+model/
+data/
+
