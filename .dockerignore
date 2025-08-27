@@ -12,9 +12,10 @@ venv/
 # Jupyter checkpoints
 .ipynb_checkpoints
 
+
 # Data and models (mount them instead)
 data/
-models/
+model/
 hf-cache/
 
 # Git
